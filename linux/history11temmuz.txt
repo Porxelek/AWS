@@ -1,0 +1,1002 @@
+  338  mkdir folder1 folder2
+  339  ls
+  340  cd folder1
+  341  touch test.py
+  342  touch test.txt
+  343  touch test.html
+  344  ls
+  345  touch test1.py test2.txt texst3.html
+  346  ls
+  347  mv texst3.html test3.html
+  348  ls
+  349  ls -l
+  350  ls -al
+  351  ls -la
+  352  ls
+  353  rm test1.py
+  354  rm test2.txt
+  355  ls
+  356  rm test.py test.txt test3.html
+  357  ls
+  358  ls -al
+  359  ls
+  360  cp ./test.html ../folder2/
+  361  cp test.html ../folder2/testv2.html
+  362  ls
+  363  cp ./test.html ../folder3/
+  364  cp test.html ../folder3
+  365  cp test.html ../folder3/test3.html
+  366  mv test.html ../folder2
+  367  ls
+  368  mv ../folder2/test.html ./test.html
+  369  touch test.html
+  370  mv test.html ../folder2
+  371  ls
+  372  cd ../folder2
+  373  ls
+  374  ls ../folder3 -a
+  375  ls ..folder3 -l
+  376  ls ../folder3 -l
+  377  ls ../folder3
+  378  mv test.html ../folder3/test4.html
+  379  touch test.html
+  380  mv ../folder3/test3.html .
+  381  ls
+  382  rm ../folder4/*
+  383  rmdir ../folder
+  384  rmdir ../folder4
+  385  mv ../folder3/test.html ./anil.html
+  386  mv anil.html mv.html
+  387  ls
+  388  mv test.html rename2.py
+  389  touch test.txt
+  390  ls
+  391  cat test.txt
+  392  cd
+  393  cat ./Linux/folder2/test.txt
+  394  pwd
+  395  echo "Hello"
+  396  echo "Welcome to Oguzhan's class"
+  397  pwd
+  398  cd Linux/folder2
+  399  ls
+  400  cat test.txt
+  401  echo "Hello World!" > test.txt
+  402  cat test.txt
+  403  echo "Welcome to Linux Essentials" >> test.txt
+  404  cat test.txt
+  405  echo Merhaba
+  406  echo Merhaba Oguzhan
+  407  echo Merhaba Oguzhan >> test.txt
+  408  cat test.txt
+  409  echo Münif >> test.txt
+  410  cat test.txt
+  411  nano test.txt
+  412  cat test.txt
+  413  ls
+  414  rm -rf *
+  415  ls
+  416  touch file{1..10}.txt
+  417  ls
+  418  ls -l
+  419  ls -la
+  420  ls -al
+  421  touch test{1..20}.py
+  422  ls
+  423  ls -l
+  424  clear
+  425  ls *ile*
+  426  ls ????5*
+  427  ls
+  428  rm -rf test*
+  429  ls
+  430  rm *2*
+  431  rm -rf *1*
+  432  cd ..
+  433  pwd
+  434  ls
+  435  rm -rf *
+  436  ls
+  437  mkdir yonetim
+  438  cd yonetim/
+  439  mkdir lessons materials
+  440  ls
+  441  cd lessons
+  442  touch linux.txt html.txt
+  443  ls
+  444  echo "I love linux" > linux.txt
+  445  echo linux.txt 
+  446  cat linux.txt 
+  447  echo I can create a website >> html.txt
+  448  cat html.txt 
+  449  cd ../materials/
+  450  touch slide.txt
+  451  touch notes.txt
+  452  echo "preparation" > slide.txt
+  453  cat slide.txt 
+  454  ls
+  455  echo "Cohort-2 is the best." > notes.txt
+  456  sudo apt install tree
+  457  tree
+  458  cd
+  459  pwd
+  460  tree
+  461  history
+  462  history > history.txt
+  463  ls
+  464  cat history.txt 
+  465  explorer.exe .
+  466  cd
+  467  pwd
+  468  whoami
+  469  hostname
+  470  osh
+  471  hostname
+  472  cd
+  473  hostname
+  474  sudo hostname DESKTOP-C9CE1DQ
+  475  cd
+  476  pwd
+  477  hostname -i
+  478  mkdir test
+  479  cd test
+  480  ls
+  481  touch .test2.txt
+  482  ls
+  483  ls -l
+  484  ls -al
+  485  ls -l -a
+  486  ls -a -l
+  487  cd
+  488  pwd
+  489  cd test
+  490  pwd
+  491  cd
+  492  pwd
+  493  cd ..
+  494  pwd
+  495  cd /
+  496  pwd
+  497  cd ~
+  498  pwd
+  499  clear
+  500  cd
+  501  pwd
+  502  cd /
+  503  ls
+  504  cd proc
+  505  ls
+  506  cd mounts
+  507  cd sysvipc
+  508  ls
+  509  cd ../config.gz
+  510  cd
+  511  pwd
+  512  ls
+  513  rm history.txt 
+  514  rm -rf yonetim/
+  515  cd test
+  516  ls
+  517  cat "merhaba" > yonetim.txt
+  518  cat > yonetim.txt
+  519  cat yonetim.txt 
+  520  cat > yonetim.txt
+  521  cat yonetim.txt 
+  522  cat > yonetim.txt
+  523  cat yonetim.txt 
+  524  cat >> yonetim.txt
+  525  cat yonetim.txt 
+  526  ls
+  527  rm yonetim.txt 
+  528  ls
+  529  cat > yonetim.txt
+  530  cat yonetim.txt 
+  531  cat > yonetim.txt
+  532  cat yonetim.txt 
+  533  cat >> yonetim.txt
+  534  cat yonetim.txt 
+  535  ls
+  536  mkdir folder1 folder2 folder3
+  537  ls
+  538  cd folder2
+  539  touch example.txt
+  540  cd ..
+  541  rmdir folder1
+  542  ls
+  543  rmdir folder2
+  544  rm -rf folder2
+  545  ls
+  546  touch test.html
+  547  ls
+  548  rm test.html
+  549  ls
+  550  rm -rf *
+  551  ls
+  552  mkdir folder1 folder2 folder3
+  553  cd folder2
+  554  touch example.txt
+  555  cd ..
+  556  tree
+  557  ls
+  558  rm -rf *
+  559  explorer.exe .
+  560  head istiklal.txt
+  561  ls
+  562  head istiklal.txt
+  563  tail istiklal.txt
+  564  clear
+  565  tail istiklal.txt
+  566  head -5 istiklal.txt
+  567  tail -5 istiklal.txt
+  568  head -n -5 istiklal.txt
+  569  tail -n -4 istiklal.txt 
+  570  head -n -4 istiklal.txt 
+  571  clear
+  572  ls
+  573  cd ..
+  574  ls
+  575  rm -rf *
+  576  ls
+  577  mkdir linux-lessons
+  578  cd linux-lessons/
+  579  nano yonetim.txt
+  580  head yonetim.txt
+  581  head -5 yonetim.txt
+  582  tail yonetim.txt
+  583  tail -5 yonetim.txt
+  584  cat yonetim.txt
+  585  clear
+  586  echo "this is file1" > file1
+  587  echo "this is file2" > file2
+  588  echo "this is file3" > file3
+  589  cat file1 file2 file3
+  590  cat file1 file2 file3 > all.txt
+  591  cat all.txt 
+  592  cat > summer.txt
+  593  ls
+  594  more yonetim.txt 
+  595  less yonetim.txt 
+  596  cd
+  597  pwd
+  598  ls
+  599  cd linux-lessons/
+  600  ls
+  601  clear
+  602  nano upuzunmetin.txt
+  603  cat upuzunmetin.txt 
+  604  more yonetim.txt
+  605  more upuzunmetin.txt
+  606  nano upuzunmetin.txt 
+  607  cd
+  608  pwd
+  609  cd linux-lessons/
+  610  ls
+  611  explorer.exe .
+  612  more upuzunmetin.txt
+  613  less upuzunmetin.txt
+  614  more upuzunmetin.txt
+  615  less upuzunmetin.txt
+  616  more upuzunmetin.txt
+  617  less upuzunmetin.txt
+  618  tac yonetim.txt 
+  619  tac yonetim.txt > reverse-yonetim.txt
+  620  cat reverse-yonetim.txt 
+  621  find . -name yonetim.txt
+  622  find . -name yonetim2.txt
+  623  find /home -name yonetim.txt
+  624  sudo deluser selcuk
+  625  find /home -name yonetim.txt
+  626  cd
+  627  cd linux-lessons/
+  628  find /home -name yonetim.txt
+  629  cd /
+  630  ls
+  631  cd home
+  632  ls
+  633  rm -rf selcuk/
+  634  sudo su
+  635  cd
+  636  pwd
+  637  find /home -name yonetim.txt
+  638  cd linux-lessons/
+  639  find . -name yonetim.txt
+  640  find /home -name yonetim.txt
+  641  cd ..
+  642  touch YoNeTiM.txt
+  643  ls
+  644  cd linux-lessons/
+  645  find /home -iname yonetim.txt
+  646  find /home -type d -name linux-lessons
+  647  find . -type f -name "*.txt"
+  648  find . -type f -empty
+  649  touch emptybudosya.txt
+  650  find . -type f -empty
+  651  touch bosbudosya.html
+  652  find . -type f -empty
+  653  find /home -type f -empty
+  654  find /home -size 100M
+  655  find /home -size +50M -size -100M
+  656  find /home -mtime 10
+  657  find /home -mtime -10
+  658  find /home -mtime +10
+  659  find . -mmin +10 -mmin -30
+  660  nano grep.txt
+  661  nano linux.txt
+  662  grep "kernel" linux.txt
+  663  grep  "is" *
+  664  grep "linux" linux.txt
+  665  grep -i "linux" linux.txt
+  666  grep -i "ker" linux.txt
+  667  grep -w "ker" linux.txt
+  668  grep -w "kernel" linux.txt
+  669  grep -v "kernel" linux.txt
+  670  grep "^li" yonetim.txt
+  671  grep "kernel.$" linux.txt
+  672  grep -A3 "line 5" yonetim.txt
+  673  grep -B2 "line 5" yonetim.txt
+  674  grep -C4 "line 5" yonetim.txt
+  675  man pwd | grep "print"
+  676  man find | grep -A5 "size"
+  677  history | grep "find"
+  678  man find | grep -A5 "size"
+  679  history | grep "find"
+  680  clear
+  681  cd
+  682  env
+  683  printenv
+  684  printenv HOME
+  685  echo $HOME
+  686  env HOME
+  687  clear
+  688  env
+  689  echo $HOME
+  690  printenv
+  691  printenv HOME
+  692  env HOME
+  693  env | grep HOME
+  694  echo $HOME
+  695  YONETIM=academy
+  696  env
+  697  echo $YONETIM
+  698  env
+  699  set
+  700  set | grep YONETIM
+  701  env
+  702  echo $YONETIM
+  703  bash
+  704  echo $YONETIM
+  705  echo $ACADEMY
+  706  OSH=xyz
+  707  echo $OSH
+  708  unset OSH
+  709  echo $OSH
+  710  export OSH=xyzsd
+  711  echo $OSH
+  712  unset OSH
+  713  echo $OSH
+  714  clear
+  715  pwd
+  716  echo $YONETIM
+  717  YONETIM=academy
+  718  echo $YONETIM
+  719  printenv $YONETIM
+  720  printenv YONETIM
+  721  XYZ=abc
+  722  echo $XYZ
+  723  bash
+  724  echo $XYZ
+  725  echo $YONETIM
+  726  YONETIM=academy
+  727  echo $YONETIM
+  728  export ACADEMY=yonetim
+  729  env
+  730  printenv ACADEMY
+  731  echo $YONETIM
+  732  echo $ACADEMY
+  733  sudo su
+  734  su user1
+  735  pwd
+  736  su user1
+  737  pwd
+  738  env
+  739  printenv PATH
+  740  whereis ls
+  741  whereis pwd
+  742  /usr/bin/pwd
+  743  whereis ls
+  744  /usr/bin/ls
+  745  ls
+  746  cd /bin
+  747  pwd
+  748  ls ca*
+  749  cd
+  750  mkdir test && cd test
+  751  nano test.sh
+  752  chmod +x test.sh
+  753  ./test.sh
+  754  cd
+  755  ./test.sh
+  756  ./test/test.sh
+  757  printenv PATH
+  758  cd test
+  759  pwd
+  760  export PATH=$PATH:/home/oguzhan_91/test
+  761  printenv PATH
+  762  cd
+  763  test.sh
+  764  cd /
+  765  test.sh
+  766  cd
+  767  cd test
+  768  ls
+  769  nano test.sh 
+  770  test.sh
+  771  nano test1.sh
+  772  cat test1.sh
+  773  ls -l
+  774  chmod +x test1.sh
+  775  ls -l
+  776  test1.sh
+  777  cd
+  778  test1.sh
+  779  cd test
+  780  nano test1.sh 
+  781  test1.sh
+  782  bash
+  783  test1.sh
+  784  unset ACADEMY
+  785  test1.sh
+  786  export YONETIM=env.var
+  787  ACADEMY=shell.var
+  788  test1.sh
+  789  cat test1.sh 
+  790  unset ACADEMY
+  791  cat test1.sh 
+  792  ACADEMY=shell.var
+  793  cat test1.sh 
+  794  echo $ACADEMY
+  795  unset ACADEMY 
+  796  echo $ACADEMY
+  797  test1.sh
+  798  MYVAR=my value
+  799  echo $MYVAR
+  800  MYVAR="my value"
+  801  echo $MYVAR
+  802  MYNAME=james
+  803  MYVAR="my name is $MYNAME"
+  804  echo $MYVAR
+  805  MYNAME="james"
+  806  MYVAR="hello $MYNAME"
+  807  echo $MYVAR
+  808  MYVAR="hello \$MYNAME"
+  809  echo $MYVAR
+  810  MYVAR="hello $MYNAME"
+  811  echo $MYVAR
+  812  echo '$SHELL'
+  813  echo 'My\$SHELL'
+  814  SHELL=osh
+  815  echo '$SHELL'
+  816  yum update
+  817  sudo yum update
+  818  sudo apt update
+  819  sudo yum update
+  820  cd
+  821  sudo yum update
+  822  apt update
+  823  sudo apt update
+  824  cd /
+  825  mkdir testfile
+  826  cd
+  827  mkdir testfile
+  828  cd /
+  829  mkdir testfile
+  830  sudo su
+  831  cd
+  832  pwd
+  833  ls
+  834  rm -rf *
+  835  ls
+  836  env
+  837  bash
+  838  cd
+  839  pwd
+  840  clean
+  841  clear
+  842  apt udate
+  843  sudo apt update
+  844  cd
+  845  pwd
+  846  whoami
+  847  pass root immediately
+  848  sudo apt install pass
+  849  cd
+  850  pwd
+  851  ls -al
+  852  ls -la
+  853  ls -l -a
+  854  ls -a -l
+  855  mkdir test3
+  856  rf -rm test3/
+  857  clear
+  858  ls
+  859  rmdir test3/
+  860  ls
+  861  clear
+  862  ls
+  863  mkdir test
+  864  cd test
+  865  cd
+  866  pwd
+  867  cd test
+  868  cd ..
+  869  cd /
+  870  sudo su
+  871  cd
+  872  pwd
+  873  clear
+  874  echo "Hello"
+  875  clean
+  876  clear
+  877  echo "Hello"
+  878  ls -al
+  879  ls -la
+  880  ls -a -l
+  881  ls -l -a
+  882  ls
+  883  rmdir test
+  884  ls
+  885  mkdir folder1 folder2 folder3
+  886  ls
+  887  cd folder2
+  888  touch test.txt
+  889  cd ..
+  890  rm -r folder2
+  891  ls
+  892  clear
+  893  pwd
+  894  whoami
+  895  hostname
+  896  hostname osh
+  897  sudo hostname osh
+  898  hostname
+  899  cd
+  900  sudo hostname xyz
+  901  hostname
+  902  bash
+  903  sudo hostname DESKTOP-C9CE1DQ
+  904  bash
+  905  cd test
+  906  mkdir test
+  907  cd test
+  908  touch abc.html
+  909  ls
+  910  mv abc.html .abc.html
+  911  ls
+  912  ls -l
+  913  ls -la
+  914  clear
+  915  pwd
+  916  cd
+  917  pwd
+  918  cd ..
+  919  pwd
+  920  cd /
+  921  ls
+  922  cd
+  923  pwd
+  924  clear
+  925  ls
+  926  rmdir folder1 folder3
+  927  ls
+  928  cd test
+  929  cat yonetim.txt
+  930  echo "Merhaba sinif" > yonetim.txt
+  931  cat yonetim.txt 
+  932  cat > yonetim.txt 
+  933  cat yonetim.txt
+  934  cat > yonetim.txt
+  935  cat yonetim.txt
+  936  cat >> yonetim.txt
+  937  cat yonetim.txt
+  938  echo "Umut Karabulut
+  939  Karabulut
+  940  Umut"
+  941  echo "Umut Karabulut
+  942  Karabulut
+  943  Umut" >> yonetim.txt 
+  944  cat yonetim.txt 
+  945  cat > yonetim.txt 
+  946  cat >> yonetim.txt 
+  947  cat yonetim.txt 
+  948  cat >> yonetim.txt 
+  949  cat yonetim.txt 
+  950  echo "AAAAAAAAAAAAA"
+  951  cat yonetim.txt 
+  952  ls
+  953  mkdir folder1 folder2 folder3
+  954  ls
+  955  cd folder2
+  956  touch example.txt
+  957  cd ..
+  958  ls
+  959  ls ./folder1
+  960  ls ./folder3
+  961  ls ./folder2
+  962  rmdir folder1
+  963  rmdir folder3
+  964  rmdir folder2
+  965  rm -rf folder2
+  966  ls
+  967  rm yonetim.txt
+  968  ls
+  969  clear
+  970  explorer.exe .
+  971  mv .abc.html abc.html
+  972  rm abc.html 
+  973  ls
+  974  explorer.exe .
+  975  ls
+  976  nano istiklal.txt
+  977  cat istiklal.txt 
+  978  head istiklal.txt
+  979  tail istiklal.txt
+  980  head -5 istiklal.txt
+  981  head -3 istiklal.txt
+  982  tail -4 istiklal.txt
+  983  cd ..
+  984  ls
+  985  rm -rf *
+  986  ls
+  987  pwd
+  988  mkdir linux-lessons
+  989  cd linux-lessons/
+  990  nano yonetim.txt
+  991  head yonetim.txt
+  992  head -5 yonetim.txt
+  993  tail yonetim.txt
+  994  tail -5 yonetim.txt
+  995  Welcome to the linux lessons
+  996  line 2
+  997  line 3
+  998  line 4
+  999  line 5
+ 1000  line 6
+ 1001  line 7
+ 1002  line 8
+ 1003  line 9
+ 1004  line 10
+ 1005  line 11
+ 1006  line 12
+ 1007  line 13
+ 1008  line 14
+ 1009  Line 15
+ 1010  lear
+ 1011  clear
+ 1012  nano yonetim.txt
+ 1013  explorer.exe .
+ 1014  tail -5 yonetim.txt
+ 1015  cat yonetim.txt
+ 1016  touch murat
+ 1017  ls
+ 1018  echo "this is file1" > file1
+ 1019  cat file
+ 1020  ls
+ 1021  cat file1
+ 1022  echo "this is file2" > file2
+ 1023  echo "this is file3" > file3
+ 1024  cat file1 file2 file3
+ 1025  cat file3
+ 1026  cat file1 file2 file3 > all.txt
+ 1027  cat all.txt
+ 1028  history
+ 1029  history > emine.txt
+ 1030  cat emine.txt
+ 1031  ls
+ 1032  ls -l
+ 1033  ls -l > liste.txt
+ 1034  cat liste.txt
+ 1035  clear
+ 1036  cat file1
+ 1037  cat file2
+ 1038  cat file3
+ 1039  cat file1 file2 file3
+ 1040  cat file1 file2 file3 > ibrahim.txt
+ 1041  cat file1
+ 1042  "merhaba" > file1
+ 1043  cat file1
+ 1044  ls
+ 1045  nano upuzunmetin.txt
+ 1046  more upuzunmetin.txt
+ 1047  clear
+ 1048  less upuzunmetin.txt
+ 1049  ls
+ 1050  cat upuzunmetin.txt
+ 1051  more upuzunmetin.txt 
+ 1052  less upuzunmetin.txt
+ 1053  cat ibrahim.txt
+ 1054  cat emine.txt
+ 1055  more emine.txt
+ 1056  ls
+ 1057  cat yonetim.txt
+ 1058  tac yonetim.txt
+ 1059  tac emine.txt
+ 1060  cat yonetim.txt
+ 1061  tac yonetim.txt
+ 1062  tac yonetim.txt > reverse-yonetim.txt
+ 1063  cat reverse-yonetim.txt
+ 1064  tac yonetim.txt > ters.txt
+ 1065  cat ters.txt
+ 1066  clear
+ 1067  pwd
+ 1068  ls
+ 1069  find . -name yonetim.txt
+ 1070  find -name yonetim.txt
+ 1071  find ./ -name yonetim.txt
+ 1072  find /home -name yonetim.txt
+ 1073  cd ..
+ 1074  pwd
+ 1075  touch YoNeTiM.txt
+ 1076  ls
+ 1077  ls ./linux-lessons/
+ 1078  find -name yonetim.txt
+ 1079  find /home -iname yonetim.txt
+ 1080  find /home -name yonetim.txt
+ 1081  find /home -type d -name linux-lessons
+ 1082  find /home/oguzhan_91 -type d -name linux-lessons
+ 1083  find /home/oguzhan_91/linux-lessons -type d -name linux-lessons
+ 1084  find /home/oguzhan_91/linux-lessons/abc -type d -name linux-lessons
+ 1085  cd linux-lessons/
+ 1086  mkdir abc
+ 1087  ls
+ 1088  find /home/oguzhan_91/linux-lessons/abc -type d -name linux-lessons
+ 1089  ls
+ 1090  ls-l
+ 1091  ls -l
+ 1092  find . -type f -name "*.txt"
+ 1093  find . -type f -empty
+ 1094  cat murat
+ 1095  cat file1
+ 1096  find /home -size 100M
+ 1097  find /home -size +50M -size -100M
+ 1098  find /home -size 1K
+ 1099  find /home -size 1
+ 1100  find /home -size 18
+ 1101  find /home -size 15
+ 1102  find /home -size 4
+ 1103  find /home -size 18B
+ 1104  find /home -size -18
+ 1105  find /home -mtime 10
+ 1106  find /home -mtime -10
+ 1107  find /home -mtime +10
+ 1108  find . -mmin +10 -mmin -30
+ 1109  clear
+ 1110  nano grep.txt
+ 1111  nano linux.txt
+ 1112  grep "kernel" linux.txt
+ 1113  grep  "is" *
+ 1114  grep "linux" linux.txt
+ 1115  cat linux.txt 
+ 1116  clear
+ 1117  grep -i "linux" linux.txt
+ 1118  grep "linux" linux.txt
+ 1119  grep -i "ker" linux.txt
+ 1120  grep "ker" linux.txt
+ 1121  grep -w "ker" linux.txt
+ 1122  nano linux.txt
+ 1123  grep -w "ker" linux.txt
+ 1124  mv linux.txt .linux.txt
+ 1125  cat linux.txt
+ 1126  cat .linux.txt
+ 1127  grep  "is" *
+ 1128  mv .linux.txt linux.txt
+ 1129  ls
+ 1130  grep  "is" *
+ 1131  grep -a "is" *
+ 1132  ls
+ 1133  mv linux.txt .linux.txt
+ 1134  ls -la
+ 1135  grep "is" *
+ 1136  grep "is" -a *
+ 1137  mv .linux.txt linux.txt
+ 1138  ls
+ 1139  grep -w "kernel" linux.txt
+ 1140  nano linux.txt
+ 1141  grep -w "kernel" linux.txt
+ 1142  grep -v "kernel" linux.txt
+ 1143  cat linux.txt
+ 1144  grep "^li" yonetim.txt
+ 1145  nano yonetim.txt
+ 1146  grep "^li" yonetim.txt
+ 1147  nano yonetim.txt
+ 1148  grep "kernel.$" linux.txt
+ 1149  cat linux.txt 
+ 1150  nano linux.txt
+ 1151  grep "kernel.$" linux.txt
+ 1152  cat linux.txt 
+ 1153  nano linux.txt 
+ 1154  grep "kernel.$" linux.txt
+ 1155  nano linux.txt 
+ 1156  grep "kernel.$" linux.txt
+ 1157  grep -A3 "line 5" yonetim.txt
+ 1158  grep -A6 "line 5" yonetim.txt
+ 1159  grep -B3 "line 5" yonetim.txt
+ 1160  clear
+ 1161  grep -C3 "line 4" yonetim.txt
+ 1162  man pwd
+ 1163  man pwd | grep "print"
+ 1164  man find | grep -A5 "size"
+ 1165  cat yonetim.txt
+ 1166  nano yonetim.txt
+ 1167  grep -A3 "line5" yonetim.txt
+ 1168  grep -A3 "line 5" yonetim.txt
+ 1169  grep -A3 "line" yonetim.txt
+ 1170  grep -A3 "line 5" yonetim.txt
+ 1171  cat yonetim.txt
+ 1172  history
+ 1173  history | grep "find"
+ 1174  ls
+ 1175  /usr/bin/ls
+ 1176  cd /
+ 1177  ls
+ 1178  cd usr
+ 1179  ls
+ 1180  cd bin
+ 1181  ls
+ 1182  cd
+ 1183  pwd
+ 1184  clear
+ 1185  env
+ 1186  cd
+ 1187  env
+ 1188  bash
+ 1189  ACADEMY=anil
+ 1190  echo $ACADEMY
+ 1191  bash
+ 1192  echo $ACADEMY
+ 1193  echo $HOME
+ 1194  printenv
+ 1195  printenv HOME
+ 1196  env HOME
+ 1197  printenv HOME
+ 1198  echo $HOME
+ 1199  env HOME
+ 1200  env
+ 1201  env | grep HOME
+ 1202  YONETIM=academy
+ 1203  env
+ 1204  env | grep "YONETIM"
+ 1205  echo $YONETIM
+ 1206  set
+ 1207  set | grep YONETIM
+ 1208  ls
+ 1209  echo $YONETIM
+ 1210  bash
+ 1211  echo $YONETIM
+ 1212  echo $HOME
+ 1213  YONETIM=academy
+ 1214  echo $YONETIM
+ 1215  echo $HOME
+ 1216  echo $YONETIM
+ 1217  printenv HOME
+ 1218  printenv YONETIM
+ 1219  XYZ=abc
+ 1220  echo $XYZ
+ 1221  bash
+ 1222  echo $XYZ
+ 1223  echo$YONETIM
+ 1224  YONETIM=academy
+ 1225  export ACADEMY=yonetim
+ 1226  env
+ 1227  printenv ACADEMY
+ 1228  sudo su
+ 1229  echo$ ABCD
+ 1230  echo $ABCD
+ 1231  echo $RESTART
+ 1232  env
+ 1233  unset RESTART
+ 1234  env
+ 1235  env | grep RESTART
+ 1236  export RESTART=anil
+ 1237  env | grep RESTART
+ 1238  unset RESTART
+ 1239  env | grep RESTART
+ 1240  printenv PATH
+ 1241  pwd
+ 1242  ls
+ 1243  whereis pwd
+ 1244  /usr/bin/pwd
+ 1245  whereis ls
+ 1246  /usr/bin/ls
+ 1247  cd /bin
+ 1248  ls
+ 1249  ls ca*
+ 1250  cd
+ 1251  pwd
+ 1252  ls
+ 1253  mkdir test && cd test
+ 1254  nano test.sh
+ 1255  clear
+ 1256  ls
+ 1257  chmod +x test.sh
+ 1258  ls
+ 1259  test.sh
+ 1260  ./test.sh
+ 1261  cd ..
+ 1262  ./test/test.sh
+ 1263  cd test
+ 1264  ./test.sh
+ 1265  printenv PATH
+ 1266  pwd
+ 1267  export PATH=$PATH:/home/oguzhan_91/test
+ 1268  test.sh
+ 1269  mkdir example && cd example
+ 1270  ls
+ 1271  test.sh
+ 1272  /usr/bin/ls
+ 1273  /usr/bin/pwd
+ 1274  pwd
+ 1275  cd ..
+ 1276  ls
+ 1277  echo $ACADEMY
+ 1278  nano test1.sh
+ 1279  ls
+ 1280  test1.sh
+ 1281  chmod +x test1.sh
+ 1282  ls
+ 1283  test1.sh
+ 1284  tail history
+ 1285  nano test1
+ 1286  ABCD=XYZD
+ 1287  export RESTART=cohort
+ 1288  echo $ABCD
+ 1289  echo $RESTART
+ 1290  su user2
+ 1291  cd
+ 1292  ls
+ 1293  cd test
+ 1294  ls
+ 1295  nano test1.sh
+ 1296  test1.sh
+ 1297  ls
+ 1298  test1.sh
+ 1299  ./test1.sh
+ 1300  export PATH=$PATH:/home/oguzhan_91/test
+ 1301  test1.sh
+ 1302  cd ..
+ 1303  test1.sh
+ 1304  MYVAR=my value
+ 1305  echo $MYVAR
+ 1306  MYVAR="my value"
+ 1307  echo $MYVAR
+ 1308  MYNAME=james
+ 1309  echo $MYNAME
+ 1310  set | grep MYNAME
+ 1311  MYVAR="my name is $MYNAME"
+ 1312  echo $MYVAR
+ 1313  MYNAME="james"
+ 1314  MYVAR="hello $MYNAME"
+ 1315  echo $MYVAR
+ 1316  MYVAR="hello \$MYNAME"
+ 1317  echo $MYVAR
+ 1318  echo "hüseyin\nışık"
+ 1319  ORNEK="hüseyin\nışık"
+ 1320  echo $ORNEK
+ 1321  cd /
+ 1322  ls
+ 1323  cd bin
+ 1324  ls
+ 1325  cd
+ 1326  pwd
+ 1327  echo "hüseyin"\n"
+ışık
+
+ 1328  ls
+ 1329  mkdir murat && cd murat && ls & touch test.txt
+ 1330  ls
+ 1331  cd murat/
+ 1332  ls
+ 1333  cd ..
+ 1334  ls
+ 1335  touch a && touch b && touch c && touch d && touch e
+ 1336  ls
+ 1337  history > history11temmuz.txt

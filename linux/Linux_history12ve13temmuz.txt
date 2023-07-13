@@ -1,0 +1,1066 @@
+ 1314  MYVAR="hello $MYNAME"
+ 1315  echo $MYVAR
+ 1316  MYVAR="hello \$MYNAME"
+ 1317  echo $MYVAR
+ 1318  echo "hüseyin\nışık"
+ 1319  ORNEK="hüseyin\nışık"
+ 1320  echo $ORNEK
+ 1321  cd /
+ 1322  ls
+ 1323  cd bin
+ 1324  ls
+ 1325  cd
+ 1326  pwd
+ 1327  echo "hüseyin"\n"
+ 1328  ışık
+ 1329  ls
+ 1330  mkdir murat && cd murat && ls & touch test.txt
+ 1331  ls
+ 1332  cd murat/
+ 1333  ls
+ 1334  cd ..
+ 1335  ls
+ 1336  touch a && touch b && touch c && touch d && touch e
+ 1337  ls
+ 1338  history > history11temmuz.txt
+ 1339  explorer.exe .
+ 1340  clear
+ 1341  ls
+ 1342  rm -rf *
+ 1343  ls
+ 1344  cd
+ 1345  w
+ 1346  id
+ 1347  whoami
+ 1348  w
+ 1349  who
+ 1350  whoami
+ 1351  sudo su
+ 1352  nano dosya.txt
+ 1353  pwd
+ 1354  cd
+ 1355  pwd
+ 1356  nano dosya.txt
+ 1357  head -n 10 dosya.txt | tail -n 5
+ 1358  head dosya.txt | tail -n 5
+ 1359  head -n 12 dosya.txt | tail -n 5
+ 1360  sed -n '3,12p' dosya.txt
+ 1361  ls -l
+ 1362  clear
+ 1363  mkdir exercise
+ 1364  cd exercise
+ 1365  touch cas.txt
+ 1366  ls -l
+ 1367  chmod u=rwx, g=-, o=- cas.txt
+ 1368  chmod u=rwx,g=-,o=- cas.txt
+ 1369  ls -l
+ 1370  touch html.txt
+ 1371  ls -l
+ 1372  chmod u=---,g=rwx,o=- html.txt
+ 1373  ls -l
+ 1374  touch java.txt
+ 1375  ls -l
+ 1376  chmod u=-,g=---,o=rwx java.txt
+ 1377  ls -l
+ 1378  touch js.js
+ 1379  ls -l
+ 1380  chmod ugo=rwx js.js -v
+ 1381  ls -l
+ 1382  touch k.txt
+ 1383  ls -l
+ 1384  chmod u=rwx,g=rw,o=x k.txt
+ 1385  ls -l
+ 1386  touch l.txt
+ 1387  ls -l
+ 1388  chmod a=r l.txt -v
+ 1389  ls -l
+ 1390  ls
+ 1391  rm -rf *
+ 1392  ls
+ 1393  ls -l
+ 1394  touch cas.txt
+ 1395  ls -l
+ 1396  chmod 700 cas.txt
+ 1397  ls -l
+ 1398  clear
+ 1399  ls -l
+ 1400  touch html.txt
+ 1401  ls -l
+ 1402  chmod 070 html.txt
+ 1403  ls -l
+ 1404  touch java.txt
+ 1405  ls -l
+ 1406  chmod 007 java.txt
+ 1407  ls -l
+ 1408  touch js.js
+ 1409  ls -l
+ 1410  chmod 777 js.js -v
+ 1411  ls -l
+ 1412  su user1
+ 1413  cd
+ 1414  pwd
+ 1415  id root
+ 1416  id oguzhan_91
+ 1417  sudo su
+ 1418  sudo su -
+ 1419  pwd
+ 1420  clear
+ 1421  sudo su
+ 1422  cd
+ 1423  pwd
+ 1424  cd exercise/
+ 1425  ls
+ 1426  ls -l
+ 1427  touch k.txt
+ 1428  ls -l
+ 1429  chmod 761 k.txt
+ 1430  ls -l
+ 1431  touch l.txt
+ 1432  ls -l
+ 1433  chmod 444 l.txt -v
+ 1434  ls -l
+ 1435  touch myfile.txt
+ 1436  ls -l
+ 1437  chmod 750 myfile.txt
+ 1438  ls -l
+ 1439  ping 142.250.188.14
+ 1440  ping -c 10 google.com
+ 1441  ssh -i "newkey.pem" ec2-user@ec2-16-171-132-65.eu-north-1.compute.amazonaws.com
+ 1442  cd
+ 1443  cd exercise/
+ 1444  clear
+ 1445  vi oguzhan.txt
+ 1446  cat oguzhan.txt 
+ 1447  vi oguzhan.txt
+ 1448  cat oguzhan.txt 
+ 1449  nano oguzhan.txt
+ 1450  nano ipsum.txt
+ 1451  nano ipsum.txt 
+ 1452  vi ipsum.txt 
+ 1453  nano ipsum.txt
+ 1454  ls
+ 1455  cat ipsum.txt 
+ 1456  cat ipsum2.txt 
+ 1457  nano ipsum.txt
+ 1458  nano python.txt
+ 1459  mv python.txt python.py
+ 1460  nano python.py
+ 1461  cd
+ 1462  pwd
+ 1463  ls
+ 1464  cat dosya.txt
+ 1465  tail -n -4 dosya.txt
+ 1466  ls
+ 1467  cd exercise/
+ 1468  cd
+ 1469  pwd
+ 1470  rm -rf *
+ 1471  ls
+ 1472  clear
+ 1473  cd
+ 1474  pwd
+ 1475  nano dosya.txt
+ 1476  cat dos
+ 1477  cat dosya.txt 
+ 1478  sed -n '3.12p' dosya.txt
+ 1479  sed -n '3,12p' dosya.txt
+ 1480  sed -n '5,9p' dosya.txt
+ 1481  sed -n '5,9' dosya.txt
+ 1482  sed -n '5,9p' dosya.txt
+ 1483  ls -l
+ 1484  clear
+ 1485  ls -al
+ 1486  touch restart.txt
+ 1487  ls -l
+ 1488  nano restart.txt
+ 1489  cat restart.txt
+ 1490  ls
+ 1491  rm -rf *
+ 1492  l
+ 1493  mkdir exercise
+ 1494  cd exercise
+ 1495  clear
+ 1496  touch cas.txt
+ 1497  ls -l
+ 1498  chmod u=rwx,g=---,o=- cas.txt
+ 1499  ls -l
+ 1500  touch html.txt
+ 1501  ls -l
+ 1502  chmod u=---,g=rwx,o=--- html.txt
+ 1503  ls -al
+ 1504  chmod u=r html.txt
+ 1505  ls -l
+ 1506  mv html.txt html
+ 1507  ls -l
+ 1508  mv html html.txt
+ 1509  ls -l
+ 1510  chmod 070 html.txt
+ 1511  nano html.txt
+ 1512  cat html.txt
+ 1513  chmod 000 html.txt
+ 1514  ls -l
+ 1515  rm -rf test.txt abc.txt 
+ 1516  chmod 070 html.txt
+ 1517  ls -l
+ 1518  touch java.txt
+ 1519  ls -l
+ 1520  chmod u=---,g=---,o=rwx java.txt
+ 1521  ls -l
+ 1522  touch emine.txt && echo "merhaba" > emine.txt && cat emine.txt
+ 1523  ls
+ 1524  cat emine.txt
+ 1525  rm -rf emine.txt
+ 1526  ls -l
+ 1527  touch js.js
+ 1528  ls -l
+ 1529  chmod ugo=rwx js.js -v
+ 1530  chmod a=rwx js.js
+ 1531  ls -l
+ 1532  chmod a=- js.js
+ 1533  ls -l
+ 1534  chmod ugo=rwx js.js
+ 1535  ls -l
+ 1536  touch k.txt
+ 1537  ls -l
+ 1538  chmod u=rwx,g=rw,o=r k.txt
+ 1539  ls -l
+ 1540  touch l.txt
+ 1541  chmod a=r l.txt -v
+ 1542  ls -l
+ 1543  chmod 445 l.txt
+ 1544  ls -l
+ 1545  chmod 001 l.txt
+ 1546  ls -l
+ 1547  chmod a=r l.txt
+ 1548  ls -l
+ 1549  ls
+ 1550  rm -rf *
+ 1551  ls
+ 1552  clear
+ 1553  touch cas.txt
+ 1554  ls -l
+ 1555  chmod 700 cas.txt
+ 1556  ls -l
+ 1557  touch html.txt
+ 1558  ls -la
+ 1559  chmod 070html.txt
+ 1560  chmod 070 html.txt
+ 1561  mkdir test
+ 1562  ls -l
+ 1563  mkdir abc -v
+ 1564  chmod 777 test -v
+ 1565  ls -l
+ 1566  rmdir test
+ 1567  rmdir abc
+ 1568  ls -l
+ 1569  touch java.txt
+ 1570  ls -l
+ 1571  chmod 007 java.txt
+ 1572  ls -l
+ 1573  touch js.js
+ 1574  ls -l
+ 1575  chmod 777 js.js -v
+ 1576  touch k.txt
+ 1577  ls -l
+ 1578  chmod 761 k.txt
+ 1579  ls -l
+ 1580  touch l.txt
+ 1581  ls -l
+ 1582  chmod 444 l.txt -v
+ 1583  750
+ 1584  touch myfile & chmod 750 myfile
+ 1585  ls -l
+ 1586  clear
+ 1587  ping google.com
+ 1588  ping 142.250.188.14
+ 1589  ping -c 10 google.com
+ 1590  clear
+ 1591  vim ornek.txt
+ 1592  vi ornek.txt
+ 1593  cat ornek.txt
+ 1594  nano ornek.txt
+ 1595  cat ornek.txt
+ 1596  nano ornek.txt
+ 1597  nano ornek.txt 
+ 1598  cat ornek.txt
+ 1599  clear
+ 1600  nano ipsum.txt
+ 1601  nano python.py
+ 1602  mv python.py python.txt
+ 1603  touch python.txt
+ 1604  nano python.txt
+ 1605  mv python.txt python.py
+ 1606  nano python.py
+ 1607  cd..
+ 1608  cd ..
+ 1609  ls
+ 1610  rm rf *
+ 1611  rm - rf *
+ 1612  ls
+ 1613  rm -rf *
+ 1614  ls
+ 1615  exit
+ 1616  cd
+ 1617  whoami
+ 1618  sudo su
+ 1619  sudo su -
+ 1620  who
+ 1621  clear
+ 1622  whoami
+ 1623  who
+ 1624  w
+ 1625  cd
+ 1626  pwd
+ 1627  ls
+ 1628  mkdir filters
+ 1629  cd filters/
+ 1630  vim days.txt
+ 1631  cat days.txt 
+ 1632  cat days.txt | cat | cat | cat | cat
+ 1633  nano count.txt
+ 1634  cat count.txt
+ 1635  nano count.txt
+ 1636  cat count.txt
+ 1637  tac count.txt | tee temp.txt | tac
+ 1638  ls
+ 1639  cat temp.txt
+ 1640  cat -n count.txt
+ 1641  cat > tennis
+ 1642  mv tennis tennis.txt
+ 1643  cat tennis.txt
+ 1644  cat >> tennis.txt
+ 1645  cat tennis.txt
+ 1646  cat tennis.txt | grep Williams
+ 1647  cat tennis.txt | grep us
+ 1648  ls -l | cut -d' ' -f3
+ 1649  ls
+ 1650  ls -l | cut -d' ' -f3
+ 1651  ls -l
+ 1652  cat /etc/passwd
+ 1653  cut -d: -f1 /etc/passwd
+ 1654  cat << EOF > yonetim.txt
+ 1655  Yonetim:Turkiye'nin resmi egitim partneri.
+ 1656  EOF
+ 1657  rm yonetim.txt
+ 1658  clear
+ 1659  cat << EOF > yonetim.txt
+ 1660  Yonetim:Turkiye'nin resmi egitim partneri.
+ 1661  EOF
+ 1662  cat << EOF > yonetim.txt
+ 1663  Yonetim:Turkiye'nin resmi egitim partneri.
+ 1664  EOD
+ 1665  EOF
+ 1666  cat << EOF > yonetim.txt
+ 1667  Yonetim:Turkiye'nin resmi egitim partneri.
+ 1668  EOF
+ 1669  cat yonetim.txt
+ 1670  cat yonetim.txt | tr oet QAZ
+ 1671  cat yonetim.txt
+ 1672  cat count.txt
+ 1673  cat count.txt | tr '\n' ' '
+ 1674  cat yonetim.txt | tr -d aeiou
+ 1675  cat yonetim.txt | tr [a-z] [A-Z]
+ 1676  wc count.txt
+ 1677  wc -l /etc/passwd
+ 1678  cat << EOF > marks.txt
+ 1679  aeron-9
+ 1680  albert-9
+ 1681  james-9
+ 1682  john-10
+ 1683  oliver-7
+ 1684  tom-7
+ 1685  victor-10
+ 1686  walter-8
+ 1687  EOF
+ 1688  cat marks.txt
+ 1689  sort marks.txt
+ 1690  cat << EOF > marks.txt
+ 1691  aeron-9
+ 1692  albert-9
+ 1693  tom-7
+ 1694  james-9
+ 1695  john-10
+ 1696  oliver-7
+ 1697  victor-10
+ 1698  walter-8
+ 1699  EOF
+ 1700  cat marks.txt
+ 1701  sort marks.txt
+ 1702  cat << EOF > marks.txt
+ 1703  emine-9
+ 1704  arif-9
+ 1705  necip-7
+ 1706  murat-9
+ 1707  barış-10
+ 1708  yusuf-7
+ 1709  hatice-10
+ 1710  yusuf-6
+ 1711  EOF
+ 1712  cat marks.txt
+ 1713  sort marks.txt
+ 1714  sort -r marks.txt
+ 1715  cat << EOF > trainees.txt
+ 1716  john
+ 1717  james
+ 1718  aeron
+ 1719  oliver
+ 1720  walter
+ 1721  albert
+ 1722  james
+ 1723  john
+ 1724  travis
+ 1725  mike
+ 1726  aeron
+ 1727  thomas
+ 1728  daniel
+ 1729  john
+ 1730  aeron
+ 1731  oliver
+ 1732  mike
+ 1733  john
+ 1734  EOF
+ 1735  cat trainees.txt
+ 1736  sort trainees.txt | uniq
+ 1737  cat << EOF > file1.txt
+ 1738  Aeron
+ 1739  Bill
+ 1740  James
+ 1741  John
+ 1742  Oliver
+ 1743  Walter
+ 1744  EOF
+ 1745  cat << EOF > file2.txt
+ 1746  Guile
+ 1747  James
+ 1748  John
+ 1749  Raymond
+ 1750  EOF
+ 1751  comm file1.txt file2.txt
+ 1752  cat << EOF > file1.txt
+ 1753  Arif
+ 1754  Barış
+ 1755  Mehmet
+ 1756  Münif
+ 1757  Oğuzhan
+ 1758  Yusuf
+ 1759  EOF
+ 1760  cat file1.txt 
+ 1761  cat << EOF > file2.txt
+ 1762  Emine
+ 1763  Mehmet
+ 1764  Münif
+ 1765  Raymond
+ 1766  EOF
+ 1767  comm file1.txt file2.txt
+ 1768  cat << EOF > file1.txt
+ 1769  Arif
+ 1770  Barış
+ 1771  Mehmet
+ 1772  Münif
+ 1773  Oğuzhan
+ 1774  Yusuf
+ 1775  EOF
+ 1776  cat << EOF > file2.txt
+ 1777  Emine
+ 1778  Mehmet
+ 1779  Münif
+ 1780  Umut
+ 1781  EOF
+ 1782  comm file1.txt file2.txt
+ 1783  cat file1.txt 
+ 1784  cat file12.txt 
+ 1785  cat file2.txt 
+ 1786  cat days.txt ; cat count.txt
+ 1787  echo Hello ; echo World!
+ 1788  cat days.txt ; cat count.txt > birlesik.txt
+ 1789  cat birlesik.txt
+ 1790  rm birlesik.txt 
+ 1791  cat days.txt ; cat count.txt | > birlesik.txt
+ 1792  rm birlesik.txt
+ 1793  sleep 10
+ 1794  sleep 5 & ls -l
+ 1795  cat days.txt & ls -l
+ 1796  ls
+ 1797  echo $?
+ 1798  ls
+ 1799  echo $?
+ 1800  lss
+ 1801  echo $?
+ 1802  cat days.txt ; cat count.txt
+ 1803  cat days.txt ; ls -al
+ 1804  sleep  20 &
+ 1805  ls -l
+ 1806  cat count.txt
+ 1807  cat days.txt
+ 1808  sleep 20 & ls -l
+ 1809  sleep 3 & echo "Hello"
+ 1810  ls
+ 1811  echo $?
+ 1812  lss
+ 1813  echo $?
+ 1814  catt
+ 1815  echo $?
+ 1816  pwdd
+ 1817  echo $?
+ 1818  cat days.txt && cat count.txt
+ 1819  cat days.txt && cat countt.txt
+ 1820  cat dayss.txt && cat count.txt
+ 1821  cat dayss.txt || cat count.txt
+ 1822  cat days.txt || echo yonetim ; echo one
+ 1823  cat days.txt || cat count.txt
+ 1824  cat dayss.txt || cat count.txt
+ 1825  echo first || echo second ; echo third
+ 1826  zecho first || echo second ; echo third
+ 1827  ls
+ 1828  cat file1
+ 1829  cat file1.txt 
+ 1830  cp file1.txt file11.txt
+ 1831  rm file11.txt && echo 'it worked' || echo 'it failed'
+ 1832  rm file11.txt && echo 'it worked' || 'it failed'
+ 1833  echo '# is the comment sign'
+ 1834  echo # is the comment sign
+ 1835  echo \# is the comment sign
+ 1836  echo this command is written not only on a single line but also on multiple lines.
+ 1837  echo The special characters are \*, \\, \", \#, \$, \'.
+ 1838  echo The special characters are *, \, ", #, $, '.
+ 1839  a
+ 1840  s
+ 1841  ls
+ 1842  cat << EOF > countries.csv
+ 1843  Country,Capital,Continent
+ 1844  USA,Washington,North America
+ 1845  France,Paris,Europe
+ 1846  Canada,Ottawa,North America
+ 1847  Germany,Berlin,Europe
+ 1848  EOF
+ 1849  cat counties.csv | cut -d -f3 | grep -v "Continent" | sort | uniq | tee continent.txt
+ 1850  cat counties.csv | cut -d, -f3 | grep -v "Continent" | sort | uniq | tee continent.txt
+ 1851  cat countries.csv | cut -d, -f3 | grep -v "Continent" | sort | uniq | tee continent.txt
+ 1852  cat countries.csv
+ 1853  cat countries.csv | cut -d, -f3
+ 1854  cat countries.csv | cut -d, -f3 | grep -v "Continent"
+ 1855  cat countries.csv | cut -d, -f3 | grep -v "Continent" | sort
+ 1856  cat countries.csv | cut -d, -f3 | grep -v "Continent" | sort | uniq
+ 1857  cat counties.csv | cut -d, -f3 | grep -v "Continent" | sort | uniq | tee continent.txt
+ 1858  cat countries.csv | cut -d, -f3 | grep -v "Continent" | sort | uniq | tee continent.txt
+ 1859  cd ..
+ 1860  ls
+ 1861  rm -rf *
+ 1862  ls
+ 1863  mkdir shell-scripting && cd shell-scripting
+ 1864  nano basic.sh
+ 1865  chmod +x basic.sh
+ 1866  ./basic.sh
+ 1867  nano basic.sh
+ 1868  ./basic.sh
+ 1869  nano.sh
+ 1870  nano basic.sh
+ 1871  ./basic.sh
+ 1872  nano basic.sh
+ 1873  ./basic.sh
+ 1874  nano basic.sh
+ 1875  ./basic.sh
+ 1876  nano basic.sh
+ 1877  ./basic.sh
+ 1878  clear
+ 1879  KEY=value
+ 1880  _VAR=5
+ 1881  yonetim_academy=test
+ 1882  3_KEY=value
+ 1883  nano variable.sh
+ 1884  chmod +x variable.sh && ./variable.sh
+ 1885  content=$(ls)
+ 1886  echo $content
+ 1887  content=`ls`
+ 1888  echo $content
+ 1889  nano command-substitution.sh
+ 1890  chmod +x command-substitution.sh
+ 1891  ./command-substitution.sh
+ 1892  nano command-substitution.sh
+ 1893  ./command-substitution.sh
+ 1894  read NAME
+ 1895  echo "Merhaba, $NAME!"
+ 1896  clear
+ 1897  nano variable.sh
+ 1898  ./variable.sh
+ 1899  read -p "Enter your name: " NAME
+ 1900  echo "Welcome $NAME"
+ 1901  read -s -p "Enter your password: " PASSWORD
+ 1902  echo -e "\nYour password is $PASSWORD"
+ 1903  nano argument.sh
+ 1904  chmod +x argument.sh
+ 1905  ./argument.sh Joe Matt Timothy James Guile
+ 1906  ./argument.sh Ali Mehmet Hatice Yusuf Beyza
+ 1907  DISTROS[0]="ubuntu"
+ 1908  DISTROS[1]="fedora"
+ 1909  DISTROS[2]="debian"
+ 1910  DISTROS[3]="centos"
+ 1911  DISTROS[4]="alpine"
+ 1912  devops_tools=("docker" "kubernetes" "ansible" "terraform" "jenkins")
+ 1913  echo ${DISTROS[0]}
+ 1914  echo ${DISTROS[1]}
+ 1915  echo ${DISTROS[@]}
+ 1916  echo ${#DISTROS[@]}
+ 1917  3 + 5
+ 1918  expr 3 + 5
+ 1919  expr 7 % 2
+ 1920  expr 9 / 3
+ 1921  expr 7 \* 3
+ 1922  expr 7 * 3
+ 1923  expr "3 + 5"
+ 1924  expr 3-2
+ 1925  expr 3 - 2
+ 1926  touch calculator.sh
+ 1927  chmod +x calculator.sh
+ 1928  nano calculator.sh
+ 1929  ./calculator.sh
+ 1930  let "sum = 3 + 5"
+ 1931  echo $sum
+ 1932  let sub=8-4
+ 1933  echo $sub
+ 1934  number=10
+ 1935  let new_number=number++
+ 1936  echo "Number = $number"
+ 1937  echo "New number = $new_number"
+ 1938  echo $number
+ 1939  echo $new_number
+ 1940  number=10
+ 1941  let new_number=--number
+ 1942  echo "Number = $number
+ 1943  echo $number
+ 1944  number=10
+ 1945  let new_number=--number
+ 1946  echo "Number = $number"
+ 1947  echo "New number = $new_number"
+ 1948  cd ..
+ 1949  ls
+ 1950  rm rf *
+ 1951  rm -rf *
+ 1952  ls
+ 1953  pwd
+ 1954  clear
+ 1955  sudo su -
+ 1956  cd
+ 1957  pwd
+ 1958  clear
+ 1959  ls
+ 1960  clear
+ 1961  mkdir filters
+ 1962  cd filters/
+ 1963  vim days.txt
+ 1964  cat days.txt 
+ 1965  cat days.txt | cat | cat | cat | cat
+ 1966  nano count.txt
+ 1967  cat count.txt
+ 1968  cat -n count.txt
+ 1969  cat count.txt
+ 1970  cat -n count.txt >> yeni.txt
+ 1971  cat yeni.txt
+ 1972  tac count.txt
+ 1973  tac count.txt | tee temp.txt
+ 1974  ls
+ 1975  cat temp.txt
+ 1976  tac count.txt | tee temp.txt | tac
+ 1977  tac count.txt
+ 1978  tac count.txt | tee denizcan.txt
+ 1979  ls
+ 1980  cat denizcan
+ 1981  cat denizcan.txt
+ 1982  cat > tennis.txt
+ 1983  cat tennis.txt
+ 1984  cat tennis.txt | grep Williams
+ 1985  cat tennis.txt | grep us
+ 1986  cat tennis.txt | grep -i us
+ 1987  ls -l
+ 1988  ls -l | cut -d' ' -f3
+ 1989  ls -l | cut -d' ' -f4
+ 1990  ls -l | cut -d' ' -f5
+ 1991  ls -l | cut -d'  ' -f5
+ 1992  ls -l | cut -d'  ' -f1
+ 1993  ls -l | cut -d' ' -f2
+ 1994  ls -l | cut -d' ' -f1
+ 1995  cat << EOF > yonetim.txt
+Yonetim:Turkiye'nin resmi egitim partneri.
+EOF
+
+ 1996  cat yonetim.txt
+ 1997  cat << münif > ornek.txt
+Merhaba Münif Bey
+münif
+
+ 1998  cat ornek.txt
+ 1999  cat yonetim.txt
+ 2000  cat yonetim.txt | tr oet QAZ
+ 2001  cat yonetim.txt | tr -i oet QAZ
+ 2002  cat yonetim.txt | tr oet QAZ
+ 2003  cat count.txt
+ 2004  cat count.txt | tr '\n' ' '
+ 2005  cat yonetim.txt | tr [a-z] [A-Z]
+ 2006  cat yonetim.txt
+ 2007  count.txt
+ 2008  cat count.txt
+ 2009  wc count.txt
+ 2010  nano count.txt
+ 2011  wc count.txt
+ 2012  clear
+ 2013  cat count.txt
+ 2014  wc count.txt
+ 2015  nano count.txt
+ 2016  cat << denizcan > marks.txt
+emine-9
+arif-9
+necip-7
+murat-9
+barış-10
+yusuf-7
+hatic-10
+yusuf-6
+denizcan
+
+ 2017  cat marks.txt
+ 2018  sort marks.txt
+ 2019  sort -r marks.txt
+ 2020  cat << EOF > trainees.txt
+john
+james
+aeron
+oliver
+walter
+albert
+james
+john
+travis
+mike
+aeron
+thomas
+daniel
+john
+aeron
+oliver
+mike
+john
+EOF
+
+ 2021  cat trainees.txt 
+ 2022  sort trainees.txt
+ 2023  sort trainees.txt | uniq
+ 2024  touch file.txt
+ 2025  nano file1.txt
+ 2026  nano file2.txt
+ 2027  comm file1.txt file2.txt
+ 2028  cat << EOF > file3.txt
+Hüseyin
+Bengi
+Barış
+EOF
+
+ 2029  clear
+ 2030  nano countries.csv
+ 2031  cat << EOF >
+Country,Capital,Continent
+USA,Washington,North America
+France,Paris,Europe
+Canada,Ottawa,North America
+Germany,Berlin,Europe
+EOF
+
+ 2032  cat << EOF > countries.csv
+Country,Capital,Continent
+USA,Washington,North America
+France,Paris,Europe
+Canada,Ottawa,North America
+Germany,Berlin,Europe
+EOF
+
+ 2033  cat countries.csv
+ 2034  cat countries.csv | cut -d, -f3
+ 2035  cat countries.csv | cut -d"," -f3
+ 2036  cat countries.csv | cut -d"," -f3 | grep -v "Continent"
+ 2037  cat countries.csv | cut -d"," -f3 | grep -v "Continent" | sort
+ 2038  cat countries.csv | cut -d"," -f3 | grep -v "Continent" | sort | uniq
+ 2039  cat countries.csv | cut -d"," -f3 | grep -v "Continent" | sort | uniq | tee continents.txt
+ 2040  ls
+ 2041  cat continents.txt
+ 2042  clear
+ 2043  cat countries.csv | cut -d "," -f2 | grep -v "Capital"| sort | uniq | tee capitals.txt
+ 2044  ls -l
+ 2045  cat capitals.txt
+ 2046  clear
+ 2047  rm continents.txt
+ 2048  rm continents.csv
+ 2049  ls
+ 2050  rm countries.csv
+ 2051  ls -l
+ 2052  clear
+ 2053  cat << EOF > countries.csv
+Country,Capital,Continent
+USA,Washington,North America
+France,Paris,Europe
+Canada,Ottawa,North America
+Germany,Berlin,Europe
+EOF
+
+ 2054  cat countries.csv
+ 2055  cat countries.csv | cut -d"," -f1
+ 2056  cat countries.csv | cut -d"," -f2
+ 2057  cat countries.csv | cut -d"," -f3
+ 2058  cat countries.csv | cut -d"," -f3 | grep -v "Continent"
+ 2059  cat countries.csv | cut -d"," -f3 | grep -v "Continent" | sort
+ 2060  cat countries.csv | cut -d"," -f3 | grep -v "Continent" | sort | uniq
+ 2061  cat countries.csv | cut -d"," -f3 | grep -v "Continent" | sort | uniq | tee continents.txt
+ 2062  cat continents.txt
+ 2063  ls -l
+ 2064  cat days.txt
+ 2065  cat count.txt
+ 2066  cat days.txt ; cat count.txt
+ 2067  cat days.txt ; cat count.txt | tee ornek2.txt
+ 2068  cat ornek2.txt 
+ 2069  cat days.txt ; ls -al
+ 2070  cat days.txt count.txt
+ 2071  cat days.txt count.txt | tee ornek3.txt
+ 2072  cat ornek3.txt
+ 2073  sleep 3 ; echo "Merhaba"
+ 2074  sleep 3 & echo "Merhaba"
+ 2075  sleep 3 ; echo "Merhaba"
+ 2076  ls
+ 2077  echo $?
+ 2078  cat
+ 2079  echo "Merhaba"
+ 2080  echo $?
+ 2081  lss
+ 2082  echo $?
+ 2083  catttt
+ 2084  echo $?
+ 2085  caattatatatat
+ 2086  echo $?
+ 2087  cat days.txt
+ 2088  cat count.txt
+ 2089  cat days.txt && cat count.txt
+ 2090  cat days.txt && catt count.txt
+ 2091  clear
+ 2092  lss -l && cat count.txt
+ 2093  cat days.txt && catt count.txt
+ 2094  cat days.txt || echo yonetim ; echo one
+ 2095  cattttt days.txt || echo yonetim ; echo one
+ 2096  clear
+ 2097  echo first || echo second ; echo third
+ 2098  zecho first || echo second ; echo third
+ 2099  echo first & echo second ; echo third
+ 2100  echo first && echo second ; echo third
+ 2101  echo first & echo second
+ 2102  sleep 3 & ls -l
+ 2103  sleep 10 ; echo first
+ 2104  sleep 10 & echo first
+ 2105  ls -l
+ 2106  cat file.txt
+ 2107  cat file1.txt
+ 2108  clear
+ 2109  cp file1.txt file11.txt
+ 2110  ls -l
+ 2111  rm file11.txt && echo 'it worked' || echo 'it failed'
+ 2112  echo # is the comment sign
+ 2113  echo "# is the comment sign"
+ 2114  echo \# is the comment sign
+ 2115  nano ornekbash.sh
+ 2116  ./ornekbash.sh
+ 2117  chmod +x ornekbash.sh
+ 2118  ls -l
+ 2119  ./ornekbash.sh
+ 2120  cat ornekbash.sh
+ 2121  nano pythondosyasi.py
+ 2122  clear
+ 2123  cd ..
+ 2124  ls
+ 2125  rm rm *
+ 2126  rm -rf *
+ 2127  ls
+ 2128  clear
+ 2129  mkdir shell-scripting
+ 2130  ld
+ 2131  ls
+ 2132  cd shell-scripting/
+ 2133  nano basic.sh
+ 2134  ls -l
+ 2135  chmod +x basic.sh
+ 2136  ls -l
+ 2137  ./basic.sh
+ 2138  cat basic.sh
+ 2139  nano basic.sh
+ 2140  ./basic.sh
+ 2141  cat basic.sh
+ 2142  nano basic.sh
+ 2143  ./basic.sh
+ 2144  export PATH=$PATH:/home/oguzhan_91/shell-scripting
+ 2145  basic.sh
+ 2146  cd ..
+ 2147  basic.sh
+ 2148  cd ..
+ 2149  basic.sh
+ 2150  cd oguzhan_91/
+ 2151  cd shell-scripting/
+ 2152  #! /bin/bash
+ 2153  yum update -y
+ 2154  amazon-linux-extras install nginx1.12
+ 2155  systemctl start nginx
+ 2156  cd /usr/share/nginx/html
+ 2157  chmod -R 777 /usr/share/nginx/html
+ 2158  rm index.html
+ 2159  wget https://raw.githubusercontent.com/awsdevopsteam/ngniex/master/index.html
+ 2160  wget https://raw.githubusercontent.com/awsdevopsteam/ngniex/master/ryu.jpg
+ 2161  systemctl restart nginx
+ 2162  systemctl enable n
+ 2163  ls
+ 2164  clear
+ 2165  nano basic.sh
+ 2166  basic.sh
+ 2167  cd ..
+ 2168  basic.sh
+ 2169  cd shell-scripting/
+ 2170  cat basic.sh
+ 2171  clear
+ 2172  cat << EOF
+Welcome to the Linux lessons.
+This lesson is about the shell scripting
+EOF
+
+ 2173  nano basic.sh
+ 2174  basic.sh
+ 2175  cat basic.sh
+ 2176  basic.sh
+ 2177  KEY=value
+ 2178  _VAR=5
+ 2179  3_KEY=value
+ 2180  -VAR=5
+ 2181  _VAR=9
+ 2182  echo $_VAR
+ 2183  clear
+ 2184  nano variable.sh
+ 2185  variable.sh
+ 2186  ./variable.sh
+ 2187  chmod +x variable.sh
+ 2188  variable.sh
+ 2189  cat variable.sh
+ 2190  ls
+ 2191  content=&(ls)
+ 2192  content=$(ls)
+ 2193  clear
+ 2194  content=$(ls)
+ 2195  echo $content
+ 2196  touch oguzhan.txt
+ 2197  ls
+ 2198  echo $content
+ 2199  content=$(ls)
+ 2200  echo $content
+ 2201  content=`ls`
+ 2202  echo $content
+ 2203  touch abc.txt
+ 2204  ls
+ 2205  content=`ls`
+ 2206  echo $content
+ 2207  clear
+ 2208  nano command-substitution.sh
+ 2209  command-substitution.sh
+ 2210  chmod +x command-substitution.sh 
+ 2211  command-substitution.sh
+ 2212  cat command-substitution.sh 
+ 2213  command-substitution.sh
+ 2214* 
+ 2215  cd ..
+ 2216  command-substitution.sh
+ 2217  ls
+ 2218  nano bugra.sh
+ 2219  chmod +x bugra.sh
+ 2220  ./bugra.sh
+ 2221  bugra.sh
+ 2222  cd shell-scripting/
+ 2223  ./bugra.sh
+ 2224  bugra.sh
+ 2225  nano bayram.sh
+ 2226  ./bayram.sh
+ 2227  chmod +x bayram.sh
+ 2228  ./bayram.sh
+ 2229  bayram.sh
+ 2230  cd ..
+ 2231  bayram.sh
+ 2232  cd ..
+ 2233  bayram.sh
+ 2234  cd oguzhan_91/
+ 2235  cd shell-scripting/
+ 2236  command-substitution.sh
+ 2237  nan command-substitution.sh
+ 2238  clear
+ 2239  nano command-substitution.sh
+ 2240  command-substitution.sh
+ 2241  cat command-substitution.sh
+ 2242  command-substitution.sh
+ 2243  whoami
+ 2244  date
+ 2245  pwd
+ 2246  read NAME
+ 2247  echo $NAME
+ 2248  echo "Merhaba, "
+ 2249  echo "Merhaba, $NAME!"
+ 2250  ls
+ 2251  clear
+ 2252  nano variable.sh
+ 2253  cat variable.sh 
+ 2254  variable.sh
+ 2255  read -p "Enter your name: " NAME
+ 2256  variable.sh
+ 2257  read -p "Enter your name: " NAME
+ 2258  echo "Welcome $NAME"
+ 2259  read -s -p "Enter your password: " PASSWORD
+ 2260  clear
+ 2261  echo -e "\nYOUR password is $PASSWORD" 
+ 2262  echo "\nYOUR password is $PASSWORD" 
+ 2263  nano argument.sh
+ 2264  cat argument.sh 
+ 2265  chmod + argument.sh
+ 2266  chmod +x argument.sh
+ 2267  argument.sh Ali Mehmet Hatice Yusuf Beyza
+ 2268  clear
+ 2269  nano arg
+ 2270  n
+ 2271  nano argument.sh 
+ 2272  argument.sh Mehmet Doğanoğlu Barış Ulusoy Eğri
+ 2273  DISTROS[0]="ubuntu"
+ 2274  DISTROS[1]="fedora"
+ 2275  DISTROS[2]="debian"
+ 2276  DISTROS[3]="centos"
+ 2277  DISTROS[4]="alpine"
+ 2278  echo ${DISTROS[0]}
+ 2279  echo ${DISTROS[3]}
+ 2280  SEVIM[0]="alin"
+ 2281  SEVIM[1]="omer"
+ 2282  echo ${SEVIM[1]}
+ 2283  echo ${SEVIM[@]}
+ 2284  clear
+ 2285  devops_tools=("docker" "kubernetes" "ansible" "terraform" "jenkins")
+ 2286  expr 3+5
+ 2287  expr 3 + 5
+ 2288  cat 3 + 5
+ 2289  expr 3 + 5
+ 2290  expr 6 - 2
+ 2291  expr 7 \* 3
+ 2292  expr 7 * 3
+ 2293  expr 7 \* 3
+ 2294  expr 9 / 3
+ 2295  expr 7 % 2
+ 2296  expr "3 + 5"
+ 2297  expr 3-5
+ 2298  expr 3 - 5
+ 2299  clear
+ 2300  touch calculator.sh
+ 2301  chmod +x calculator.sh
+ 2302  nano calculator.sh 
+ 2303  calculator.sh
+ 2304  mv calculator.sh calculator.txt
+ 2305  ls -l
+ 2306  calculator.txt
+ 2307  mv calculator.txt calculator
+ 2308  calculator
+ 2309  nano calculator
+ 2310  expr 7 + 5
+ 2311  expr 7 * 5
+ 2312  expr 7 \* 5
+ 2313  history > history13temmuz.txt
