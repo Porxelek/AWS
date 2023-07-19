@@ -1,0 +1,34 @@
+network ders notlari
+
+network cihazlar kumesinin brbiriyle baglanip konusmasini saglayan kilavuz terimleri :
+
+router bir modem
+
+swith ler layer 2
+mac adresi butun cihazlarda unique yan makilarin konusmasin swich ile oluyor
+
+ayri departmandaki yine swithle baglanan pcleri switclerle baglanmasini rooter sagliyor
+
+client en kucuk network parcasi
+Client : Server olmayan networke bağlı olan herşey (edited) 
+
+server bir cok clienttin ortak kullandigi print sevrver
+
+butun clientlerin ortak kullandigi yerler server
+
+netork interfwace card eternet karti dedgimiz kaplo tipi
+
+router yapip swithchin yapamadigi sey rooter netowrkleri birbirine iletebiliyor
+
+siwtc sadece mac adresleri uzerinden pakaetleri paylastirsbiliyor
+
+nic = internete baglanmamiza saglayan bas sistemin deki birleşen
+lan = bizim evdeki private networkumuz
+
+wan  : a dan bye gecebilmek icin kullandigimiz networkuumuz
+
+lan kendi networkumuz
+
+wan insanlarla etkilesimli kullandigimiz network
+
+kuucuk isletmelerde swithc olmadan networking yapabilirisin.
