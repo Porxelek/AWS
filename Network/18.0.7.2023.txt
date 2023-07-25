@@ -32,3 +32,14 @@ lan kendi networkumuz
 wan insanlarla etkilesimli kullandigimiz network
 
 kuucuk isletmelerde swithc olmadan networking yapabilirisin.
+
+
+############################################################################################################################
+
+TCP bağlantısı kurulurken; yani iki bilgisayar birbiriyle TCP protokolü üzerinden bağlantı kurmak istediğinde aşağıdaki sıralama ile işlemler gerçekleşmeye başlar:
+
+X bilgisayarı Y bilgisayarına bir TCP SYN mesajı yollar.
+Y bilgisayarı X bilgisayarının isteğini aldığına dair bir TCP SYN+ACK mesajı yollar.
+X bilgisayarı Y bilgisayarına TCP ACK mesajı yollar.
+Y bilgisayarı bir ACK "TCP connection is ESTABLISHED" mesajı alır.
+Üçlü el sıkışma adı verilen bu yöntem sonucunda TCP bağlantısı açılmış, süreç başarılı ve güvenli bir şekilde sağlanmış olur.
