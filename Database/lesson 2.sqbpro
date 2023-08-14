@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="D:/AWS/Database/chinook.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="125"/><column_width id="3" width="5166"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,6:mainalbums"/><default_encoding codec=""/><browse_table_settings/></tab_browse><tab_sql><sql name="Cohort-2-Database-Session-1.sql">/*================================================================================
+										SELECT
+================================================================================*/
+/*tracks tablosundaki track isimlerini (name) sorgulayınız*/
+SELECT name FROM tracks;
+
+/*tracks tablosundaki besteci (composer) ve şarkı isimlerini (name) sorgulayınız*/
+SELECT Composer, name FROM tracks;
+
+/*tracks tablosundaki tüm bilgileri sorgulayınız*/
+SELECT * FROM tracks;
+
+/*================================================================================
+										DISTINCT
+================================================================================*/
+/*tracks tablosundaki composer bilgilerini sorgulayınız (TEKRARLI OLABİLİR)*/
+SELECT Composer FROM tracks;
+
+/*tracks tablosundaki composer bilgilerini sorgulayınız (TEKRARSIZ)*/
+SELECT DISTINCT Composer FROM tracks;
+
+/*tracks tablosundaki AlbumId ve MediaTypeId bilgilerini TEKRARSIZ olarak
+sorgulayınız*/
+SELECT DISTINCT AlbumId, MediaTypeId FROM tracks;
+/*================================================================================
+										WHERE
+================================================================================*/
+/*Composer'ı Jimi Hendrix olan şarkıları sorgulayınız*/
+SELECT Name FROM tracks WHERE Composer = 'Jimi Hendrix';
+
+SELECT Name
+FROM tracks
+WHERE Composer = 'Jimi Hendrix';
+
+/*invoices tablosunda Total değeri 10$'dan büyük olan faturaların tüm bilgilerini
+sorgulayınız*/
+
+SELECT *
+FROM invoices
+WHERE Total &gt; 10;
+
+SELECT CustomerId, InvoiceDate, total
+FROM invoices
+WHERE Total &gt; 10;</sql><sql name="SQL 2">/*================================================================================
+								LIMIT
+================================================================================
+
+invoices tablosunda Total değeri 10$'dan büyük olan ilk 4 kayıt'ın InvoiceId, 
+InvoiceDate ve total bilgilerini sorgulayiniz */
+
+SELECT InvoiceId, InvoiceDate, invoices[total]
+FROM invoices
+WHERE total &gt; 10
+LIMIT 7;
+
+/*================================================================================
+										ORDER BY
+================================================================================*/
+/*invoices tablosunda Total değeri 10$'dan büyük olan kayıtları Total değerine göre 
+ARTAN sırada sıralayarak sorgulayiniz */
+
+SELECT *
+FROM invoices
+WHERE total &gt; 10
+ORDER BY total
+ASC;
+
+SELECT *
+FROM invoices
+WHERE total &gt; 10
+ORDER BY InvoiceDate
+DESC
+LIMIT 10;
+
+SELECT *
+FROM invoices
+WHERE total &gt; 10
+ORDER BY InvoiceDate DESC
+LIMIT 10;
+
+/*================================================================================
+							LOGICAL OPERATORS (AND,OR,NOT)
+================================================================================*/
+
+/* invoices tablosunda ülkesi (BillingCountry) USA olmayan kayıtları total değerine
+göre AZALAN sırada listeyiniz */
+
+
+/* invoices tablosunda ülkesi (BillingCountry) USA olmayan kayıtları total değerine
+göre AZALAN sırada listeyiniz */
+
+SELECT *
+FROM invoices
+WHERE NOT BillingCountry == 'USA'
+ORDER BY total DESC;
+
+SELECT *
+FROM invoices
+WHERE BillingCountry &lt;&gt; 'USA'
+ORDER BY total DESC;
+
+SELECT *
+FROM invoices
+WHERE BillingCountry != 'USA'
+ORDER BY total DESC;
+
+
+
+SELECT COUNT(InvoiceId) AS num_of_invoice
+FROM invoices;
+</sql><current_tab id="1"/></tab_sql></sqlb_project>
