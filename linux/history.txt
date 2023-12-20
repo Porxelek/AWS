@@ -1,0 +1,446 @@
+    1  sudo su
+    2  sudo su
+    3  pwd
+    4  ls
+    5  cd
+    6  pwd
+    7  clear
+    8  pwd
+    9  explorer.exe .
+   10  sudo su
+   11  clear
+   12  cd Desktop
+   13  ls
+   14  ls -l
+   15  cd
+   16  mkdir test
+   17  ls
+   18  cd test
+   19  clear
+   20  explorer.exe .
+   21  cd
+   22  explorer.exe .
+   23  cd
+   24  ls
+   25  cd test
+   26  explorer.exe .
+   27  cd
+   28  explorer.exe .
+   29  pwd
+   30  ls
+   31  mkdir Linux
+   32  ls
+   33  cd Linux/
+   34  cat test.html
+   35  touch test.html
+   36  touch test.py test.md
+   37  touch test.txt
+   38  clear
+   39  ls
+   40  pwd
+   41  ls -l
+   42  ls -al
+   43  clear
+   44  cd test
+   45  clear
+   46  mkdir test
+   47  ls
+   48  cd test
+   49  cd ..
+   50  ls
+   51  rmdir test
+   52  ls
+   53  clear
+   54  cd ..
+   55  clear
+   56  mkdir test
+   57  ls
+   58  clear
+   59  cd test
+   60  cd ..
+   61  cd /
+   62  cd ~
+   63  clear
+   64  cd Linux
+   65  cd..
+   66  clear
+   67  cd ..
+   68  cd Linux
+   69  pwd
+   70  cd ..
+   71  pwd
+   72  cd ..
+   73  pwd
+   74  ls
+   75  cd oguzhan_91/Linux/
+   76  cd ../..
+   77  cd oguzhan_91/Linux
+   78  cd
+   79  pwd
+   80  cd /
+   81  pwd
+   82  ls
+   83  cd ~
+   84  cd /
+   85  cd
+   86  ls
+   87  rm -rf Linux test
+   88  ls
+   89  mkdir Linux
+   90  ls
+   91  cd Linux
+   92  mkdir folder1 folder2 folder3
+   93  ls -al
+   94  cd folder2
+   95  ls
+   96  cd ..
+   97  rmdir folder1
+   98  ls
+   99  rmdir folder2
+  100  ls
+  101  mkdir folder1
+  102  ls
+  103  cd folder1
+  104  clear
+  105  touch test.py
+  106  touch test.txt
+  107  touch test.html
+  108  touch test1.py test2.txt test3.html
+  109  ls
+  110  ls -l
+  111  rm test1.py
+  112  ls
+  113  rm test2.txt
+  114  rm test.py test.txt test3.html
+  115  ls
+  116  ls -al
+  117  ls
+  118  cp test.html ../folder2/
+  119  cp ./test.html ../folder2/
+  120  cp ./test.html ../folder3/
+  121  cp test.html ../folder3/test3.html
+  122  mv test.html ../folder2
+  123  ls
+  124  cd ../folder2
+  125  ls
+  126  ls ../folder3
+  127  ls ../folder3 -a
+  128  ls ../folder3 -al
+  129  ..folder3/test3.html .
+  130  mv ..folder3/test3.html .
+  131  mv ../folder3/test3.html .
+  132  ls
+  133  mv ../folder3/test.html ./mv.html
+  134  ls
+  135  mv test.html rename2.py
+  136  ls
+  137  cat test.txt
+  138  cd
+  139  celar
+  140  clear
+  141  cat ./Linux/folder2/test.txt
+  142  echo "Welcome to Oguzhan's class"
+  143  clear
+  144  echo "Welcome to Oguzhan's class"
+  145  cd Linux/folder2
+  146  ls
+  147  cat test.txt
+  148  echo "Hello World!" > test.txt
+  149  cat test.txt 
+  150  echo "Welcome to Linux Essentials" >> test.txt
+  151  cat test.txt 
+  152  nano test.txt
+  153  cat test.txt 
+  154  nano test.txt 
+  155  touch Linux linux
+  156  ls
+  157  touch Linux.txt linux.txt
+  158  ls
+  159  rm -rf *
+  160  ls
+  161  touch file{1..10}.txt
+  162  ls
+  163  touch test{1..20}.py
+  164  ls
+  165  clear
+  166  ls -al
+  167  ls *ile*
+  168  ls ????5*
+  169  rm -rf test*
+  170  rm -rf *2*
+  171  rm -rf *1*
+  172  ls $6.txt
+  173  ls $6
+  174  tree
+  175  sudo apt install tree
+  176  tree
+  177  cd
+  178  ls
+  179  clear
+  180  ls
+  181  mkdir yonetim
+  182  cd yonetim
+  183  mkdir lessons
+  184  cd lessons
+  185  touch linux.txt
+  186  echo "I love linux" > linux.txt
+  187  touch html.txt
+  188  echo "I can create a website" > html.txt
+  189  cd ..
+  190  mkdir materials
+  191  cd materials
+  192  touch slide.txt
+  193  echo "preparation" > slide.txt
+  194  touch notes.txt
+  195  echo "Cohort-2 is the best"
+  196  cd ..
+  197  ls
+  198  cd lessons
+  199  ls
+  200  cat html.txt 
+  201  cd ..
+  202  tree
+  203  cd ..
+  204  tree
+  205  ls
+  206  rm rf Linux
+  207  rm -rf Linux
+  208  ls
+  209  tree
+  210  history
+  211  history > history.txt
+  212  ls
+  213  cat history.txt 
+  214  explorer.exe .
+  215  cd
+  216  pwd
+  217  man ls
+  218  cd
+  219  pwd
+  220  cd
+  221  pwd
+  222  man ls
+  223  ls --help
+  224  man ls
+  225  clear
+  226  explorer.exe .
+  227  pwd
+  228  cd
+  229  sudo adduser selcuk
+  230  su selcuk
+  231  pwd
+  232  ls
+  233  rm -rf *
+  234  ls
+  235  mkdir Linux
+  236  ls
+  237  cd Linux
+  238  ls
+  239  touch test.md
+  240  touch test.html test.py
+  241  ls
+  242  ls -l
+  243  ls
+  244  pwd
+  245  clear
+  246  ls -a
+  247  ls -al
+  248  pwd
+  249  cd ..
+  250  pwd
+  251  tree
+  252  cd Linux
+  253  tree
+  254  cd /
+  255  ls
+  256  cd home
+  257  pwd
+  258  ls
+  259  cd oguzhan_91/
+  260  cd ../..
+  261  cd ~
+  262  pwd
+  263  cd /
+  264  cd home/oguzhan_91
+  265  pwd
+  266  cd /
+  267  cd home/oguzhan_91/linux
+  268  cd home/oguzhan_91/linux/
+  269  cd /home/oguzhan_91/linux/
+  270  cd
+  271  ls
+  272  cd /
+  273  cd home/oguzhan_91/Linux
+  274  cd ..
+  275  mkdir test
+  276  cd test
+  277  touch test.py
+  278  ls
+  279  cd ..
+  280  rmdir test
+  281  rm -rf test/
+  282  ls
+  283  mkdir cohort2
+  284  cd cohort2
+  285  touch file{1..10}.txt
+  286  cd ..
+  287  ls
+  288  rmdir cohort2
+  289  rm -rf cohort2/
+  290  mkdir folder1
+  291  rmdir folder1
+  292  ls
+  293  cd Linux
+  294  ls
+  295  mkdir folder1
+  296  mkdir folder2
+  297  mkdir folder3
+  298  ls -l
+  299  rmdir folder1 folder2 folder3
+  300  ls -l
+  301  mkdir folder1 folder2 folder3
+  302  ls
+  303  rmdir folder2
+  304  rmdir folder1 folder3
+  305  mkdir folder1 folder2 folder3
+  306  ls
+  307  cd folder2
+  308  touch.txt
+  309  touch test.txt
+  310  ls
+  311  cd ..
+  312  ls
+  313  rm test.md
+  314  ls
+  315  rm test.html test.py test.txt
+  316  ls
+  317  rmdir folder1
+  318  l
+  319  rmdir folder2
+  320  rm -rf folder2
+  321  ls
+  322  mkdir folder1 folder2
+  323  ls
+  324  cd folder1
+  325  touch test.py
+  326  touch test.txt
+  327  touch test.html
+  328  ls
+  329  touch test1.py test2.txt texst3.html
+  330  ls
+  331  mv texst3.html test3.html
+  332  ls
+  333  ls -l
+  334  ls -al
+  335  ls -la
+  336  ls
+  337  rm test1.py
+  338  rm test2.txt
+  339  ls
+  340  rm test.py test.txt test3.html
+  341  ls
+  342  ls -al
+  343  ls
+  344  cp ./test.html ../folder2/
+  345  cp test.html ../folder2/testv2.html
+  346  ls
+  347  cp ./test.html ../folder3/
+  348  cp test.html ../folder3
+  349  cp test.html ../folder3/test3.html
+  350  mv test.html ../folder2
+  351  ls
+  352  mv ../folder2/test.html ./test.html
+  353  touch test.html
+  354  mv test.html ../folder2
+  355  ls
+  356  cd ../folder2
+  357  ls
+  358  ls ../folder3 -a
+  359  ls ..folder3 -l
+  360  ls ../folder3 -l
+  361  ls ../folder3
+  362  mv test.html ../folder3/test4.html
+  363  touch test.html
+  364  mv ../folder3/test3.html .
+  365  ls
+  366  rm ../folder4/*
+  367  rmdir ../folder
+  368  rmdir ../folder4
+  369  mv ../folder3/test.html ./anil.html
+  370  mv anil.html mv.html
+  371  ls
+  372  mv test.html rename2.py
+  373  touch test.txt
+  374  ls
+  375  cat test.txt
+  376  cd
+  377  cat ./Linux/folder2/test.txt
+  378  pwd
+  379  echo "Hello"
+  380  echo "Welcome to Oguzhan's class"
+  381  pwd
+  382  cd Linux/folder2
+  383  ls
+  384  cat test.txt
+  385  echo "Hello World!" > test.txt
+  386  cat test.txt
+  387  echo "Welcome to Linux Essentials" >> test.txt
+  388  cat test.txt
+  389  echo Merhaba
+  390  echo Merhaba Oguzhan
+  391  echo Merhaba Oguzhan >> test.txt
+  392  cat test.txt
+  393  echo Münif >> test.txt
+  394  cat test.txt
+  395  nano test.txt
+  396  cat test.txt
+  397  ls
+  398  rm -rf *
+  399  ls
+  400  touch file{1..10}.txt
+  401  ls
+  402  ls -l
+  403  ls -la
+  404  ls -al
+  405  touch test{1..20}.py
+  406  ls
+  407  ls -l
+  408  clear
+  409  ls *ile*
+  410  ls ????5*
+  411  ls
+  412  rm -rf test*
+  413  ls
+  414  rm *2*
+  415  rm -rf *1*
+  416  cd ..
+  417  pwd
+  418  ls
+  419  rm -rf *
+  420  ls
+  421  mkdir yonetim
+  422  cd yonetim/
+  423  mkdir lessons materials
+  424  ls
+  425  cd lessons
+  426  touch linux.txt html.txt
+  427  ls
+  428  echo "I love linux" > linux.txt
+  429  echo linux.txt 
+  430  cat linux.txt 
+  431  echo I can create a website >> html.txt
+  432  cat html.txt 
+  433  cd ../materials/
+  434  touch slide.txt
+  435  touch notes.txt
+  436  echo "preparation" > slide.txt
+  437  cat slide.txt 
+  438  ls
+  439  echo "Cohort-2 is the best." > notes.txt
+  440  sudo apt install tree
+  441  tree
+  442  cd
+  443  pwd
+  444  tree
+  445  history
+  446  history > history.txt
